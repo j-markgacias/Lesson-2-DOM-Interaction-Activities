@@ -6,6 +6,21 @@ const app = Vue.createApp
             myname: 'Mark Joenar Gacias', 
             myage: 19, 
               };
+    },
+    methods:
+    {
+        myageplus5(int)
+        {
+            const agesum = this.myage + int
+            return agesum
+        },
+
+        favnum()
+        {
+            const randomnum = Math.random()
+            return randomnum;
+        }
+
     }
 
 });
