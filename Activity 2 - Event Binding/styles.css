@@ -26,7 +26,7 @@ header {
   background-image: url('https://images.pexels.com/photos/714525/pexels-photo-714525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
-#assignment {
+#content {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: auto;
   border-radius: 10px;
@@ -36,14 +36,14 @@ header {
   width: 600px;
 }
 
-#assignment h2 {
+#content h2 {
   font-size: 2rem;
   border-bottom: 4px solid #e06614;
   color: rgb(214, 57, 10);
   margin: 0 0 1rem 0;
 }
 
-#assignment p {
+#content p {
   font-size: 1.25rem;
   font-weight: bold;
   background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
@@ -52,7 +52,7 @@ header {
   border-radius: 25px;
 }
 
-#assignment input {
+#content input {
   margin-top: 12px;
   font: sans-serif;
   font-size: 18px;
@@ -62,14 +62,14 @@ header {
   color: #e06614;
 }
 
-#assignment input:focus {
+#content input:focus {
   outline: none;
   border-color: #e06614;
   background-color: rgb(240, 219, 198);
   color: #e06614;;
 }
 
-#assignment button {
+#content button {
   font: inherit;
   cursor: pointer;
   border: 1px solid rgb(236, 63, 10);
@@ -79,8 +79,8 @@ header {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
 }
 
-#assignment button:hover,
-#assignment button:active {
+#content button:hover,
+#content button:active {
   background-color: #bd5008;
   border-color: #bd5008;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
