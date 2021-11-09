@@ -8,41 +8,61 @@ html {
 
 body {
   margin: 0;
+  background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
 }
 
 section {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  margin: 3rem;
-  border-radius: 10px;
-  padding: 1rem;
+  width: 600px;
+  margin: auto;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
   text-align: center;
+  margin-top: 40px;
+  background-color: #ffffff;
+  border-radius: 18px;
 }
 
 h2 {
   font-size: 2rem;
-  border-bottom: 4px solid #ccc;
-  color: #970076;
+  border-bottom: 4px solid rgb(238, 140, 102);
+  color: rgb(214, 57, 10);
   margin: 0 0 1rem 0;
 }
 
 p {
   font-size: 1.25rem;
-  font-weight: bold;
-  background-color: #970076;
+  font-weight: 12px;
+  background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
   padding: 0.5rem;
   color: white;
   border-radius: 25px;
 }
 
 input {
-  font: inherit;
-  border: 1px solid #ccc;
+  margin-top: 12px;
+  font: sans-serif;
+  font-size: 18px;
+  border: 1px solid #e06614;
+  border-radius: 18px;
+  text-align: center;
+  color: #e06614;;
 }
 
 input:focus {
   outline: none;
-  border-color: #1b995e;
-  background-color: #d7fdeb;
+  border-color: #e06614;
+  background-color: rgb(240, 219, 198);
+  color: #e06614;;
+}
+
+img
+{
+  border-radius: 18px;
+  width: 524px;
+  
 }
 
 button {
