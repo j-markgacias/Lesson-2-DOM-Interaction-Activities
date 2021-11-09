@@ -5,6 +5,7 @@ const app = Vue.createApp
         return{
             myname: 'Mark Joenar Gacias', 
             myage: 19, 
+            imgurl: "https://images.pexels.com/photos/714525/pexels-photo-714525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               };
     },
     methods:
