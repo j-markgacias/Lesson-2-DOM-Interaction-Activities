@@ -28,7 +28,7 @@ header {
   width: 600px;
 }
 
-#assignment {
+#content {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -41,14 +41,14 @@ header {
   width: 600px;
 }
 
-#assignment h2 {
+#content h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
   color: #99491b;
   margin: 0 0 1rem 0;
 }
 
-#assignment p {
+#content p {
   font-size: 1.25rem;
   font-weight: bold;
   background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
@@ -57,18 +57,18 @@ header {
   border-radius: 25px;
 }
 
-#assignment input {
+#content input {
   font: inherit;
   border: 1px solid #ccc;
 }
 
-#assignment input:focus {
+#content input:focus {
   outline: none;
   border-color: #1b995e;
   background-color: #d7fdeb;
 }
 
-#assignment button {
+#content button {
   font: inherit;
   cursor: pointer;
   border: 1px solid hsla(14, 93%, 53%, 1);
@@ -77,10 +77,11 @@ header {
   color: white;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+  margin-right: 10px;
 }
 
-#assignment button:hover,
-#assignment button:active {
+#content button:hover,
+#content button:active {
   background-color: rgb(209, 58, 12);
   border-color: rgb(209, 58, 12);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
