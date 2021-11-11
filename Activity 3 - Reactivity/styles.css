@@ -8,39 +8,52 @@ html {
 
 body {
   margin: 0;
+  background-image: url('https://images.pexels.com/photos/714525/pexels-photo-714525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  margin: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
   padding: 1rem;
-  background-color: #1b995e;
-  color: white;
+  background-color: white;
+  color: rgb(230, 73, 0);
   text-align: center;
+  width: 600px;
 }
 
 #assignment {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  margin: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
+  background-color: white;
   padding: 1rem;
   text-align: center;
+  width: 600px;
 }
 
 #assignment h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
-  color: #1b995e;
+  color: #99491b;
   margin: 0 0 1rem 0;
 }
 
 #assignment p {
   font-size: 1.25rem;
   font-weight: bold;
-  background-color: #8ddba4;
+  background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
   padding: 0.5rem;
-  color: #1f1f1f;
+  color: #ffffff;
   border-radius: 25px;
 }
 
@@ -58,8 +71,9 @@ header {
 #assignment button {
   font: inherit;
   cursor: pointer;
-  border: 1px solid #ff0077;
-  background-color: #ff0077;
+  border: 1px solid hsla(14, 93%, 53%, 1);
+  border-radius: 20px;
+  background-color: hsla(14, 93%, 53%, 1);
   color: white;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
@@ -67,7 +81,7 @@ header {
 
 #assignment button:hover,
 #assignment button:active {
-  background-color: #ec3169;
-  border-color: #ec3169;
+  background-color: rgb(209, 58, 12);
+  border-color: rgb(209, 58, 12);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
 }
