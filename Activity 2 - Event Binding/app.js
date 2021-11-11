@@ -12,7 +12,7 @@ const app = Vue.createApp
     {
         alertprompt()
         {
-            alert('Alert!');
+            alert('Please fill in the blanks!');
         },
     }
 
