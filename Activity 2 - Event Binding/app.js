@@ -6,6 +6,14 @@ const app = Vue.createApp
                 output1: '',
                 output2: '',
               };
+    },
+
+    methods:
+    {
+        showAlert()
+        {
+            alert('Alert!');
+        },
     }
 
 });
