@@ -21,11 +21,12 @@ header {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 0.1px;
   background-color: #ffffff;
   color: rgb(214, 57, 10);
   text-align: center;
   width: 600px;
+  height: 80px;
 }
 
 #content {
@@ -36,6 +37,7 @@ header {
   text-align: center;
   background: white;
   width: 600px;
+ 
 }
 
 #content h2 {
@@ -75,8 +77,8 @@ header {
 #content button {
   font: inherit;
   cursor: pointer;
-  border: 1px solid rgb(236, 63, 10);
-  background-color: rgb(236, 63, 10);
+  border: 1px solid hsla(14, 93%, 53%, 1);
+  background-color: rgb(212, 56, 9);
   color: white;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
