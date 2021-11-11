@@ -10,7 +10,7 @@ const app = Vue.createApp
 
     methods:
     {
-        showAlert()
+        alertprompt()
         {
             alert('Alert!');
         },
