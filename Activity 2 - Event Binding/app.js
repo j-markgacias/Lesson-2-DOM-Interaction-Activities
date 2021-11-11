@@ -3,8 +3,8 @@ const app = Vue.createApp
     data()
     {
         return{
+                output: '',
                 output1: '',
-                output2: '',
               };
     },
 
@@ -14,6 +14,19 @@ const app = Vue.createApp
         {
             alert('Please fill in the blanks!');
         },
+
+        Output(event)
+        {
+            this.output = event.target.value;
+        },
+
+        Output1(event)
+        {
+            this.output1 = event.target.value;
+        },
+
+
+
     }
 
 });
