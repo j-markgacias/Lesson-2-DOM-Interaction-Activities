@@ -1,16 +1,19 @@
-const app = Vue.createApp
-({
+const app = Vue.createApp ({
+  
     data()
     {
-       
+        return 
+        {
+           
+        };
     },
 
-    methods:
+    methods: 
     {
-       
-
-    }
-
+      
+        
+    },
+    
 });
 
 app.mount('#content');
