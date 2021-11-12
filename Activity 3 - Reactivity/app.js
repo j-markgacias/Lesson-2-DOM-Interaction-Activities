@@ -2,15 +2,19 @@ const app = Vue.createApp ({
   
     data()
     {
-        return 
-        {
-           
+        return {
+            value: 0
         };
+
     },
 
     methods: 
     {
       
+        add(int)
+        {
+            this.value = this.value+int
+        }
         
     },
     
