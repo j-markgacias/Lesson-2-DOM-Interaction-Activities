@@ -3,13 +3,26 @@ const app = Vue.createApp ({
     data()
     {
         return {
-            value: 0,
-            timer:5000,
+            value: 0
         };
 
     },
 
-    
+    watch: 
+    {
+        value(limit)
+        {
+            if (limit >= 37)
+            {
+                const that = this;
+                setTimeout(function() 
+                {
+                    that.value = 0;
+                }, 5000)
+            }
+        }
+
+    },
 
     methods: 
     {
