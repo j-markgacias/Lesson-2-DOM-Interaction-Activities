@@ -28,7 +28,7 @@ header {
   width: 600px;
 }
 
-#assignment {
+#content {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: auto;
   border-radius: 10px;
@@ -41,7 +41,7 @@ header {
   width: 600px;
 }
 
-#assignment h2 {
+#content h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
   color: #1b995e;
@@ -57,7 +57,7 @@ p {
   border-radius: 25px;
 }
 
-#assignment input {
+#content input {
   margin-top: 12px;
   font: sans-serif;
   font-size: 18px;
@@ -67,13 +67,13 @@ p {
   color: #e06614;
 }
 
-#assignment input:focus {
+#content input:focus {
   outline: none;
   border-color: rgb(194, 59, 18);
   background-color: rgb(248, 207, 195);
 }
 
-#assignment button {
+#content button {
   font: inherit;
   cursor: pointer;
   border: 1px solid hsla(14, 93%, 53%, 1);
@@ -84,8 +84,8 @@ p {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
 }
 
-#assignment button:hover,
-#assignment button:active {
+#content button:hover,
+#content button:active {
   background-color: rgb(228, 72, 25);
   border-color: rgb(194, 59, 18);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
