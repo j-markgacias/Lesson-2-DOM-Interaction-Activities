@@ -19,6 +19,7 @@
     <section id="assignment">
       <!-- 1) Fetch the user input and use it as a CSS class -->
       <!-- The entered class should be added to the below paragraph -->
+      <span>Input one option among the textboxs below.</span><br>
       <input v-on:keyup="txtbx1" oninput="this.value = this.value.toLowerCase()"  type="text" placeholder="user1, user2"/>
       <!-- (available classes: "user1", "user2") -->
       <p :class="user">
