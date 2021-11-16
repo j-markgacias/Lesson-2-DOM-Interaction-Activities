@@ -29,8 +29,9 @@
           Style me!
         </p>
 
-      </div> <br>
+      </div>
 
+      <div>
       <button @click="togglehide">Toggle Paragraph</button>
         
       <!-- 2) Use the "visible" and "hidden" classes to show/ hide the above paragraph -->
@@ -40,7 +41,7 @@
       <input  v-on:keyup="txtbx2" type="text" oninput="this.value = this.value.toLowerCase()" placeholder="Fire, Apricot, Spice" />
       <br>
       <p :style="{backgroundColor: selectColor}">Style me inline!</p>
-
+      </div>
      
 
     </section>
