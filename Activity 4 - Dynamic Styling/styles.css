@@ -8,40 +8,27 @@ html {
 
 body {
   margin: 0;
-  background-image: url('https://images.pexels.com/photos/714525/pexels-photo-714525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3rem;
   border-radius: 10px;
   padding: 1rem;
-  background-color: #ffffff;
-  color: rgb(214, 57, 10);
+  background-color: #1b995e;
+  color: white;
   text-align: center;
-  width: 600px;
 }
 
-#content {
+#assignment {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  margin: auto;
+  margin: 3rem;
   border-radius: 10px;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 0.2rem;
+  padding: 1rem;
   text-align: center;
-  background-color: #ffffff;
-  width: 600px;
 }
 
-#content h2 {
+#assignment h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
   color: #1b995e;
@@ -51,44 +38,37 @@ header {
 p {
   font-size: 1.25rem;
   font-weight: bold;
-  background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+  background-color: #8ddba4;
   padding: 0.5rem;
-  color: #ffffff;
+  color: #1f1f1f;
   border-radius: 25px;
 }
 
-#content input {
-  margin-top: 12px;
-  font: sans-serif;
-  font-size: 16px;
-  border: 1px solid #e06614;
-  border-radius: 18px;
-  text-align: center;
-  color: #e06614;
+#assignment input {
+  font: inherit;
+  border: 1px solid #ccc;
 }
 
-#content input:focus {
+#assignment input:focus {
   outline: none;
-  border-color: rgb(194, 59, 18);
-  background-color: rgb(248, 207, 195);
+  border-color: #1b995e;
+  background-color: #d7fdeb;
 }
 
-#content button {
+#assignment button {
   font: inherit;
   cursor: pointer;
-  border: 1px solid hsla(14, 93%, 53%, 1);
-  background-color: hsla(14, 93%, 53%, 1);
+  border: 1px solid #ff0077;
+  background-color: #ff0077;
   color: white;
-  border-radius: 20px;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
-  margin-right: 10px;
 }
 
-#content button:hover,
-#content button:active {
-  background-color: rgb(228, 72, 25);
-  border-color: rgb(194, 59, 18);
+#assignment button:hover,
+#assignment button:active {
+  background-color: #ec3169;
+  border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
 }
 
