@@ -22,16 +22,27 @@
       <span>Input one option among the textboxs below.</span><br>
       <input v-on:keyup="txtbx1" oninput="this.value = this.value.toLowerCase()"  type="text" placeholder="user1, user2"/>
       <!-- (available classes: "user1", "user2") -->
-      <p :class="user">
-        Style me!
-      </p>
-      <button>Toggle Paragraph</button>
+      
+      <div :class="[enable ? 'visible' : 'hidden']">
+     
+        <p :class="user">
+          Style me!
+        </p>
+
+      </div> <br>
+
+      <button @click="togglehide">Toggle Paragraph</button>
+        
       <!-- 2) Use the "visible" and "hidden" classes to show/ hide the above paragraph -->
       <!-- Clicking the button should toggle between the two options -->
 
       <!-- 3) Add dynamic inline styling to the below paragraph and let the user enter a background-color -->
       <input type="text" />
+      <br>
       <p>Style me inline!</p>
+
+     
+
     </section>
   </body>
 </html>

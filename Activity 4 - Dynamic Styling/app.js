@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data() {
         return {
             user: '',
-            input: ''
+            input: '',
+            enable:true,
 
         };
     },
@@ -27,6 +28,11 @@ const app = Vue.createApp({
             this.user = ''
           }
 
+        },
+
+        togglehide() 
+        {
+            this.enable = !this.enable;
         },
 
     }

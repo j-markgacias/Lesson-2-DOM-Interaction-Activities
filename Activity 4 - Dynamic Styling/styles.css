@@ -89,3 +89,8 @@ p {
 .visible {
   display: block;
 }
+
+.btnsection
+{
+  margin-top: 20px;
+}
