@@ -4,6 +4,9 @@ const app = Vue.createApp({
             user: '',
             input: '',
             enable:true,
+            color: '',
+            selectColor: ''
+
 
         };
     },
@@ -34,6 +37,29 @@ const app = Vue.createApp({
         {
             this.enable = !this.enable;
         },
+
+        txtbx2(event)
+        {
+            this.color = event.target.value;
+            if(this.color === 'fire') 
+            {
+                this.selectColor = '#DD571C';
+            }
+            else if(this.color === 'apricot') 
+            {
+                this.selectColor = '#ED820E'
+            }
+            else if(this.color === 'spice') 
+            {
+                this.selectColor = '#7A3803';
+            }
+            else
+            {
+                this.selectColor = '';
+            }
+        }
+
+
 
     }
     
